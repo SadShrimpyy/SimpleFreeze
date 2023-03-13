@@ -1,0 +1,12 @@
+name: SimpleFreeze
+version: '1.0-Relase'
+main: com.sadshrimpy.simplefreeze.SimpleFreeze
+api-version: 1.19
+prefix: SimpleFreeze
+authors: [SadShrimpy]
+description: Simple plugin that allow you to freeze the players
+website: Coming soon...
+softdepend:
+  - "bStats"
+commands:
+  freeze:
