@@ -1,7 +1,7 @@
 ![Logo](https://i.imgur.com/5eHUfYt.png)
 
 #### SimpleFreeze
-Check the plugin on [SpigotMC]( "SpigotMC.org")
+Check the plugin on [SpigotMC](https://www.spigotmc.org/resources/simplefreeze-freeze-unfreeze-actions-permissions-exempt-list-name-uuid-more.108590/ "SpigotMC.org")
 
 ## Description
 Through this plugin you will be able to manage the freezing of a player; selecting which actions he can perform, and which he cannot.
