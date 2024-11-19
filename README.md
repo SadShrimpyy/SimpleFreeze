@@ -20,7 +20,7 @@ Through this plugin you will be able to manage the freezing of a player; selecti
 ## Commands
 * `/freeze reload`: Reload the plugin
 * `/freeze help`: View the generic help menu
-* `/freeze freeze <name>`: Freezea specific player
+* `/freeze freeze <name>`: Freeze a specific player
 * `/freeze freeze *`: Freeze all the online players
 * `/freeze thaw <name>`: Thaw a specific player
 * `/freeze thaw *`: Thaw all the online players

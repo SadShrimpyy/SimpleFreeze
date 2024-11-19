@@ -9,8 +9,5 @@
         <module name="SimpleFreeze" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="SimpleFreeze" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
