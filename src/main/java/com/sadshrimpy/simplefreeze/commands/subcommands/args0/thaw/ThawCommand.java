@@ -1,9 +1,6 @@
 package com.sadshrimpy.simplefreeze.commands.subcommands.args0.thaw;
 
-import com.sadshrimpy.simplefreeze.Frozen.FrozenManager;
-import com.sadshrimpy.simplefreeze.Frozen.FrozenPlayer;
 import com.sadshrimpy.simplefreeze.commands.CommandSyntax;
-import com.sadshrimpy.simplefreeze.commands.subcommands.args0.freeze.args0.TemporarilyCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
@@ -11,7 +8,6 @@ import org.bukkit.entity.Player;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.UUID;
 
 import static com.sadshrimpy.simplefreeze.SimpleFreeze.sadLibrary;

@@ -35,9 +35,6 @@ public class TabCompleterManager implements TabCompleter {
 
             case 2:
                 return secondArg(permission);
-
-            //case 3:
-                //return thirdArg(permission);
         }
 
         return new ArrayList<>();
@@ -72,35 +69,5 @@ public class TabCompleterManager implements TabCompleter {
         else
             return StringUtil.copyPartialMatches(args[1], Collections.singletonList("<You don't have the permission>"), new ArrayList<>());
         return null;
-    }
-
-    private ArrayList<String> thirdArg(boolean permission) {
-        /*
-        if (permission) {
-            switch (args[0].toLowerCase()) {
-                case "add":
-                    return addSub();
-
-                case "remove":
-                    return removeSub();
-
-                case "inspect":
-                    return StringUtil.copyPartialMatches(args[1], Arrays.asList("gui", "chat", "map"), new ArrayList<>());
-            }
-        } else
-            return StringUtil.copyPartialMatches(args[0], Collections.singletonList("<You don't have the permission>"), new ArrayList<>());
-         */
-        return null;
-    }
-
-    private ArrayList<String> addSub() {
-        ArrayList<String> lore = new ArrayList<>();
-        for (Plugin p : Bukkit.getServer().getPluginManager().getPlugins())
-            lore.add(p.getName());
-        return lore;
-    }
-
-    private ArrayList<String> removeSub() {
-        return null; // TODO: 27/02/2023 Iterate through the list and display all the current
     }
 }

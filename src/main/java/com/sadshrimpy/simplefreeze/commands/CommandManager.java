@@ -1,7 +1,5 @@
 package com.sadshrimpy.simplefreeze.commands;
 
-import com.sadshrimpy.simplefreeze.Frozen.FrozenManager;
-import com.sadshrimpy.simplefreeze.Frozen.FrozenPlayer;
 import com.sadshrimpy.simplefreeze.commands.subcommands.args0.CreditsCommand;
 import com.sadshrimpy.simplefreeze.commands.subcommands.args0.HelpCommand;
 import com.sadshrimpy.simplefreeze.commands.subcommands.args0.ReloadCommand;

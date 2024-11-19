@@ -11,7 +11,7 @@ public class HelpSpecificCommand implements CommandSyntax {
     public String getName() { return "help"; }
 
     @Override
-    public String getPermission(String[] args) { return null; } //sadLibrary.permissions().getListHelp()
+    public String getPermission(String[] args) { return null; }
 
     @Override
     public boolean hasSubcommands() { return false; }
