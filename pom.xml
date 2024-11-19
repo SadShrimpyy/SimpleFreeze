@@ -45,14 +45,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <configuration>
-                    <outputDirectory>C:\Users\Shiry\Desktop\\Developing SPIGOT\\Servers\[1.19.3]\plugins</outputDirectory>
-                    <!--outputDirectory>C:\Users\Fab\Desktop\DEV\Servers\[1.19.3]\plugins</outputDirectory-->
-                </configuration>
-            </plugin>
         </plugins>
         <resources>
             <resource>
